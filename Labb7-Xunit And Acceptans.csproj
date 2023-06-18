@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Labb7_Xunit_And_Acceptans</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Labb7-Xunit And Acceptans XUnit\**" />
+    <EmbeddedResource Remove="Labb7-Xunit And Acceptans XUnit\**" />
+    <None Remove="Labb7-Xunit And Acceptans XUnit\**" />
+  </ItemGroup>
+
+</Project>
